@@ -1,4 +1,3 @@
-contact.rb
 
 get "/contacts" do
   @contacts = []
