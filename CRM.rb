@@ -18,6 +18,14 @@ get  '/contacts/new' do
 	erb :new_contact
 end
 
+get '/contacts/delete' do
+  erb :delete_contact
+end
+
+get '/contacts/modify' do
+  erb :modify_contact
+end
+
 get "/contacts" do
   @contacts = []
   @contacts << Contact.new("Julie", "Hache", "julie@bitmakerlabs.com", "Instructor")
