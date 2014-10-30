@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <header></header>
+  <body>
+
+<h2><%= @contact.first_name %> <%= @contact.last_name %></h2>
+
+
+<p><strong>Email:</strong> <%= @contact.email %></p>
+<p><strong>Note:</strong></p>
+<p><%= @contact.note %></p>
+
+
+<a href="/contacts/<%=@contact.id%>/modify_contact">MODIFY CONTACT</a>
+<form action="/contacts/<%= @contact.id %>" method="post">
+  <input type="hidden" name="_method" value="delete">
+  <button name="Delete" type="submit" value="CSS">Delete</button>
+</form>
+
+
+
+</body>
+</html>

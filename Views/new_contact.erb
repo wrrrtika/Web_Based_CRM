@@ -7,27 +7,27 @@
 
   <form action="/contacts" method="post">
   
-  <label for="First Name">First Name:</label>
+  <label id="first_name">First Name:</label>
   
-  <input type="text" name="first_name">
+  <input id="first_name" type="text" name="first_name"> <!--type attribute is dope, change from text to button etc, w/ string-->
 
   <br>
 
-  <label for="Last Name">Last Name:</label>
+  <label id="last_name" for="Last Name">Last Name:</label>
   
-  <input type="text" name="last_name">
+  <input id="last_name" type="text" name="last_name">
 
   <br>
 
-  <label for="email">Email:</label>
+  <label id:"email" for="email">Email:</label>
   
-  <input type="text" name="email">
+  <input id:"email" type="text" name="email">
 
   <br>
 
-  <label for="note">Note:</label>
+  <label id="note" for="note">Note:</label>
   
-  <input type="text" name="note">
+  <input id="note" type="text" name="note">
 
   <br>
 
@@ -35,3 +35,5 @@
 </form>
 </body>
 </html>
+
+<!-- is a good way of inputting a placeholding value for the user. don't use 'em as labels unless maybe a login--> 

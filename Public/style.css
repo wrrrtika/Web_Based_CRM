@@ -1,18 +1,15 @@
 body {
- 	background:-webkit-gradient(linear, 0% 10%, 100% 0%, from(#FFFFFF), to(#00FF00));
- 	
-
+ 	  background-image: url("http://www.hcrepublican.com/wp-content/uploads/2014/02/120118_marbet-website-background-5.jpg");
  }
 
 p {
 	color: #FF00FF;
-	text-decoration: underline;
 
 }
 
 h3 {
 
-	margin-bottom: 500px;
+	margin-bottom: 33%;
 
 }
 
@@ -25,11 +22,11 @@ h4  {
 }
 
 h1 {
-	padding-bottom: 10px;
-	margin-bottom: 10px;
+	padding-bottom: 5%;
+	margin-bottom: 5%;
 	color: #000000;
 	text-decoration: overline;
-	 margin-left: auto;
+	margin-left: auto;
     margin-right: auto;
     width: 6em
 
@@ -38,35 +35,51 @@ h1 {
 
 div {
 
-	padding: 2px;
-	border-style: solid; 
-	border-width: 2px;
+	padding: 2%;
+	border-style: dotted; 
+	border-width: 1px;
 	border-color: black;
-	background:-webkit-gradient(linear, 0% 10%, 100% 0%, from(#FFFFFF), to(#00FF00));
+	background-image: url("http://www.hcrepublican.com/wp-content/uploads/2014/02/120118_marbet-website-background-5.jpg");
 }
 
 li {
 	display: inline-block;
-	padding-left: 165px
+	padding-left: 11.5%
 }
 
+.contactdisplay
+	
+	{
+
+		color: #000000
+
+	}
+
+form {
+
+	padding-bottom: 25% 
+
+
+}
+
+
 a:link {
-    color: #FF00FF;
+    color: #000666;
 }
 
 /* visited link */
 a:visited {
-    color: #FF00FF;
+    color: #000666;
 }
 
 /* mouse over link */
 a:hover {
-    color: #FF00FF;
+    color: #000666;
 }
 
 /* selected link */
 a:active {
-    color: #FF00FF;
+    color: #000666;
 }
 
 IMG {
