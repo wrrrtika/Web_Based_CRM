@@ -33,10 +33,25 @@ h1 {
 
 }
 
+
+#contacts_list {
+
+	border-style: solid;
+    border-width: 1px;
+    opacity: 0.4;
+    border-left-width: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-right-width: 10px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+}
+
+
 div {
 
 	padding: 1%;
-	border-style: dotted; 
+	border-style: solid; 
 	border-width: 1px;
 	border-color: black;
 	background-image: url("http://www.hcrepublican.com/wp-content/uploads/2014/02/120118_marbet-website-background-5.jpg");

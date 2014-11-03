@@ -7,13 +7,15 @@
 
 
 
-
+<div id="contacts_list">
 <ul>
-  <% @@rolodex.contacts.each do |contact| %>
+  <% @contacts.each do |contact| %>
   <a href="/contacts/<%= contact.id %>">
-    <li> <%=contact.first_name %> <%= contact.last_name %> (<%= contact.email %>) <%= contact.note %> ID: <%= contact.id %></li>
+    <li> <b>Name:</b> <%=contact.first_name %> <%= contact.last_name %> <b>Email:</b> (<%= contact.email %>) <b>Note:</b> <%= contact.note %> <b>ID:</b> <%= contact.id %></li>
     </a>
   <% end %>
 </ul>
+</div>
 </body>
 </html>
+
